@@ -44,13 +44,39 @@ nav a{
 /* header related styles */
 .header{
     background-color: #FFF8F3;
+    background-image: url('header_bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 235px 150px;
     display:flex;
     align-items: center;
+    justify-content: space-around;
+   
+    
 }
 .picture{
     width: 500px;
+    padding-left: 90px;
     
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+    
+}
+.banner-tittle{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    
+}
+.banner-paragraph{
+    font-size: 18px;
+    font-weight: 400;
 }
